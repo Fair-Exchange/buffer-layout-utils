@@ -1,6 +1,6 @@
 {
     "name": "@safecoin/buffer-layout-utils",
-    "version": "0.2.0",
+    "version": "0.2.2",
     "author": "Safecoin Maintainers <safe@safecoin.org>",
     "repository": "https://github.com/fair-exchange/buffer-layout-utils",
     "license": "Apache-2.0",
@@ -38,8 +38,8 @@
         "prepare": "yarn build"
     },
     "dependencies": {
+        "@safecoin/web3.js": "^1.44.3",
         "@solana/buffer-layout": "^4.0.0",
-        "@safecoin/web3.js": "^1.44.1",
         "bigint-buffer": "^1.1.5",
         "bignumber.js": "^9.0.1"
     },
